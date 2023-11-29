@@ -1,3 +1,28 @@
+:root {
+   --color-accent-400: hsl(12, 88%, 59%);
+   --color-accent-100: hsl(13, 100%, 96%);
+
+   --color-primary-400: hsl(228, 39%, 23%);
+
+   --color-neutral-100: hsl(232, 12%, 13%);
+   --color-neutral-900: hsl(0, 0%, 98%);
+
+   --font-family-primary:font-family: 'Be Vietnam Pro', sans-serif;
+   --font-family-body: var(var(--font-family-primary));
+   --font-family-heading: var(var(--font-family-primary));
+
+   --fw-regular:400;
+   --fw-semi-bold:500;
+   --fw-bold:700;
+
+   -fs-300: .8125rem;
+   -fs-400: .875rem;
+   -fs-500: 1rem;
+   -fs-600: 1.875rem;
+   -fs-700: 2.5rem;
+
+}
+
 /* Box sizing rules */
 *,
 *::before,
